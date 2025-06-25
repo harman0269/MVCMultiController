@@ -1,19 +1,21 @@
 div {
     margin-bottom: 15px;
 }
+h{
+	color:white;
+}
 body {
     color: yellow;
-    margin: 20px;
     background-color: black;
-}
-#forum {
-    text-align: center;
     border: 1px solid yellow;
     border-radius: 4px;
-    padding: 20px;
+     padding: 20px;
     width: 35%;
-    margin: 200px auto;
+    margin: 100px auto;
+    text-align: center;
 }
+
+
 #image{
 	width: 420px;
 	height:100px;

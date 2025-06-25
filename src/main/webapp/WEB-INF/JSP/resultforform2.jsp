@@ -6,7 +6,9 @@
 <meta charset="UTF-8">
 <title>Result for form 2</title>
 </head>
-<body bgcolor="lightblue" color="white">
+<body>
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/styles.css"> 
+<h1>YOUR DETAILS</h1>
 <p>USERNAME:${kuser.username}</p>
 <p>PASSWORD:${kuser.password}</p>
 <p>EMAIL:${kuser.mail}</p>
