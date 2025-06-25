@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Formm</title>
-<style>
+<!-- <style>
 div {
     margin-bottom: 15px;
 }
@@ -22,15 +22,15 @@ body {
     width: 35%;
     margin: 200px auto;
 }
-</style>
+</style> -->
 </head>
 <body>
 
-<!-- <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/styles.css"> -->
+ <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/styles.css"> 
 
 <div id="forum">
     <div>
-        <img alt="No image found" src="${pageContext.request.contextPath}/resources/image/360_F_206046054_B8YrFuOlIv93L1znF8bM8kmkEksNdpDf.jpg" />
+        <img src="${pageContext.request.contextPath}/resources/image/360_F_206046054_B8YrFuOlIv93L1znF8bM8kmkEksNdpDf.jpg" alt="No image found" id="image" />
     </div>
     <form action="${pageContext.request.contextPath}/submitformm" method="post">
         <div><label>USERNAME: <input type="text" name="username" /></label></div>
