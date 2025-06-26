@@ -30,7 +30,7 @@ public class userforform2  {
     }
 
     // Parameterized constructor
-    public userforform2(Integer id, int experience, LocalDate dateOfBirth, String username, String mail, String password) {
+    public userforform2(int id, int experience, LocalDate dateOfBirth, String username, String mail, String password) {
         super();
         this.id = id;
         this.experience = experience;
