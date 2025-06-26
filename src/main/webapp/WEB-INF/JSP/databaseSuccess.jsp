@@ -4,14 +4,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>MultiController</title>
+<title>Success</title>
 </head>
-<body>
-<body>
+<body >
+ <form action="${pageContext.request.contextPath}/loginform" method="post">
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/styles.css"> 
-<h1>HELLO THIS IS MY HOME PAGE!!</h1>
-<a href="${pageContext.request.contextPath}/loginform">Login</a>
-<a href="${pageContext.request.contextPath}/sign-upp">Sign Up</a>
+<h1>Login Details Saved!</h1>
+<button type="submit">Login</button>
+
 
 </body>
 </html>

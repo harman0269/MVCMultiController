@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Formm</title>
+<title>Form</title>
 <!-- <style>
 div {
     margin-bottom: 15px;
@@ -38,7 +38,7 @@ body {
         <div><label>EMAIL: <input type="email" name="mail" /></label></div>
         <div><label>DATE OF BIRTH: <input type="date" name="dateOfBirth" /></label></div>
         <div><label>EXPERIENCE: <input type="number" name="experience" /></label></div>
-        <button type="submit">Submit</button>
+        <button type="submit">Sign Me Up!</button>
     </form>
 </div>
 

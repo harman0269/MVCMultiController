@@ -4,14 +4,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>MultiController</title>
+<title>Your Account</title>
 </head>
 <body>
-<body>
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/styles.css"> 
-<h1>HELLO THIS IS MY HOME PAGE!!</h1>
-<a href="${pageContext.request.contextPath}/loginform">Login</a>
-<a href="${pageContext.request.contextPath}/sign-upp">Sign Up</a>
-
+<h1>Welcome To Your Account</h1>
+<a href="${pageContext.request.contextPath}/homepage">Back To Home Page</a>
 </body>
 </html>

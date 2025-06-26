@@ -15,5 +15,7 @@
 <p>DATE OF BIRTH:${kuser.dateOfBirth}</p> 
 <p>EXPERIENCE:${kuser.experience}</p>
 <p>ID:${kuser.id }</p>
+<!-- <button type="submit">Okay</button> -->
+<a href="${pageContext.request.contextPath}/dbSuccess">Okayy</a>
 </body>
 </html>

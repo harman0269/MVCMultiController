@@ -48,6 +48,36 @@ public class welcomeform2Controller {
 		return "resultforform2";
 	}
 	
+	@GetMapping("/dbSuccess")
+	public String signupSucess() {
+		System.out.println("welcomeform.signupSucess()");
+		return "databaseSuccess";
+	}
+	
+	@PostMapping("/loginform")
+	public String login(@ModelAttribute userforform2 User,Model model) {
+		System.out.println("welcomeform.login()");
+		return "loginForm";
+	}
+	
+	@GetMapping("/loginform")
+	public String loginn(@ModelAttribute userforform2 User,Model model) {
+		System.out.println("welcomeform.login()");
+		return "loginForm";
+	}
+	
+	@PostMapping("/login")
+	public String loginSucess(@ModelAttribute userforform2 User,Model model) {
+		System.out.println("welcomeform.loginSuccess()");
+		return "loginSuccess";
+	}
+	
+	@GetMapping("/homepage")
+	public String homepage() {
+		System.out.println("welcomeform.homepage()");
+		return "home";
+	}
+	
 
 }
 

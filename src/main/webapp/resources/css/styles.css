@@ -1,9 +1,7 @@
 div {
     margin-bottom: 15px;
 }
-h{
-	color:white;
-}
+
 body {
     color: yellow;
     background-color: black;
@@ -13,6 +11,16 @@ body {
     width: 35%;
     margin: 100px auto;
     text-align: center;
+}
+a{
+  background-color: black;
+  border: yellow;
+  color: yellow;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 
