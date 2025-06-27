@@ -70,15 +70,22 @@
 	</dependencies>
 
 ). 
-5.In java resources then in src/main/java create 5 java files with the following packages:-
-      a.User  (model)
-      b.UserController  (controller)
-      c.UserService  (service)
-      d.UserDao  (dao)
-      e.UserConfig  (config)
+5.In java resources then in src/main/java create 5 java files with the following packages and annotations:-
+
+      a.User  (model)  @Entity @Id
+      b.UserController  (controller)  @Controller  @Autowired -UserService(object)
+      c.UserService  (service)    @Service   @Autowired  -UserDao(object)
+      d.UserDao  (dao)   @Respository   @Autowired  -HibernateTemplate(OBJECT)
+      e.UserConfig  (config)   @Configuration
+      
  6.IN CONFIG PACKAGE WE HAVE TO CREATE 2 CLASSES:-
  
  			FIRST CLASS(SpringConfig.java)(REPLACEMENT OF -SERVLET.XML FILE)
+ 			
+ 			Annotations:-@EnableWebMvc
+						 @ComponentScan(basePackages = "com.web")
+						 @EnableTransactionManagement
+						 @Configuration
  
 		 You have to create total 5 beans in springconfig class:-
 	
@@ -94,6 +101,7 @@
 8.FOR JOINING RESOURCE EXTERNAL FILES LIKE CSS OR IMAGES IN JSP 
 	make folder named resources in webapp only then uh can add css files and images in this folder
 	and must use this below method in springconfig.java class.
+	home js 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/resources/**")  // ** to match all files/folders inside resources
